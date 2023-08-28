@@ -58,31 +58,38 @@ sudo rm -rf index.html
 ## 3. 部分功能测试
 
 + 开启Session
+
 ```php
 <?
 echo phpinfo(); // 利用phpinfo查看Session的保存路径（session.save_path），并赋予其读写权限
 ?>
 ```
+
 ![Session信息](./images/session.png)
 
 + 学生用户注册/登录
+
 ![学生注册](./images/student_register.png)
 ![注册成功](./images/register_success.png)
 ![学生登录](./images/login.png)
 ![数据库记录](./images/students_table.png)
 
 + 学生选课
+
 ![搜索课程](./images/search_course.png)
 ![已选课程](./images/list_course1.png)
 
 + 学生完成作业
+
 ![查看作业](./images/response_question.png)
 
 + 教师管理课程
+
 ![创建课程](./images/create_course.png)
 ![已有课程](./images/list_course2.png)
 ![创建班级](./images/create_class.png)
 
 + 教师发布作业
+
 ![创建问题](./images/create_question.png)
 ![发布作业](./images/create_assignment.png)
